@@ -6,9 +6,7 @@
 		"nrOfTodos": "{count} Aufgaben",
 		"markAsDone": "als erledigt markiert",
 		"markAsIncomplete": "Als unvollständig Aldwin",
-		"deleteTodo": "Löschen",
-		"placeholder": "Aufgabe hinzufügen...",
-		"addTodo": "Neue hinzufügen"
+		"deleteTodo": "Löschen"
 	},
 	"pages": {
 		"home": {
