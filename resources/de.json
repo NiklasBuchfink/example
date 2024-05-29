@@ -14,9 +14,6 @@
 		"home": {
 			"goToTodoApp": "Zur Todo-App"
 		},
-		"todo": {
-			"goToHome": "Zurück"
-		},
 		"error": {
 			"404": {
 				"title": "Seite nicht gefunden"
