@@ -1,5 +1,5 @@
 {
-	"title": "Meine App",
+	"title": "Message\nHeader\n- Point 1\n- Point 2",
 	"description": "Dies ist eine einfache Todo-App, die Inlang in einer realen Anwendung zeigt.",
 	"app": {
 		"today": "Heute, {date}",
