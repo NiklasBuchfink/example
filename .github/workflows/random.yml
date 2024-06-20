@@ -1,0 +1,16 @@
+name: Unique String Generator Workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      - name: Generate unique string
+        run: echo "UNIQUE_STRING=unique-${{ github.run_id }}-${{ github.run_attempt }}-$(date +%s)" >> $GITHUB_ENV
+      
+      - name: Print unique string
+        run: echo "The unique string for this run is $UNIQUE_STRING"
